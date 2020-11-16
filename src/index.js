@@ -572,6 +572,7 @@ jQuery(document).ready(function ($) {
     var studentFirst = document.getElementById("studentFirst").value;
     var studentLast = document.getElementById("studentLast").value;
     var studentEmail = document.getElementById("studentEmail").value;
+    var proctorName = document.getElementById("proctorName").value;
     var proctorEmail = document.getElementById("proctorEmail").value;
     var classCodeSelected = document.getElementById("classCode").value;
     var testNumberSelected = document.getElementById("testNumber").value;
@@ -580,6 +581,7 @@ jQuery(document).ready(function ($) {
         studentFirst,
         studentLast,
         studentEmail,
+        proctorName,
         proctorEmail,
         classCodeSelected,
         testNumberSelected
